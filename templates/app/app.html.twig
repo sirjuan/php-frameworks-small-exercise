@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{text}}{% endblock %}
+
+{% block body %}
+  <p>
+    <a href="click">{{text}}</a>
+  </p>
+{% endblock %}
+
+{#
+  or straight without handleClick controller: <a href="?action=click">{{text}}</a>
+#}

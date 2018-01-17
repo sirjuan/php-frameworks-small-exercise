@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+app:
+    path: /
+    controller: App\Controller\AppController::index
+click:
+    path: /click
+    controller: App\Controller\AppController::handleClick
